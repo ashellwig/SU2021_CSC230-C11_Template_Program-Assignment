@@ -1,0 +1,48 @@
+{
+  "configurations": [
+    {
+      "name": "Linux",
+      "includePath": [
+        "/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0",
+        "/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu",
+        "/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward",
+        "/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include",
+        "/usr/local/include",
+        "/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed",
+        "/usr/include",
+        "${workspaceRoot}",
+        "${workspaceRoot}/include"
+      ],
+      "defines": [
+        "DEBUG=1"
+      ],
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/g++",
+      "browse": {
+        "databaseFilename": "${default}",
+        "path": [
+          "/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0",
+          "/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu",
+          "/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward",
+          "/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include",
+          "/usr/local/include",
+          "/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed",
+          "/usr/include",
+          "${workspaceRoot}",
+          "${workspaceRoot}/include/cxxopts",
+          "${workspaceRoot}/include/catch2"
+        ],
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "compilerArgs": [
+        "-std=gnu++2a",
+        "-x",
+        "c++",
+        "-isystem share/include/cxxopts"
+      ],
+      "cStandard": "c11",
+      "cppStandard": "c++20"
+    }
+  ],
+  "version": 4
+}
